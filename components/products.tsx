@@ -9,6 +9,7 @@ import {
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Home from "@/app/page";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 type Props = {
   imgPaths: string[];
@@ -24,16 +25,12 @@ export function Products(props: Props) {
       <div>
         <header className="flex items-center justify-between h-16 px-4 text-gray-900 shadow-md">
           <div className="flex items-center">
-              <a href="/">
-                <Button
-                  className="rounded-full"
-                  size="icon"
-                  variant="ghost"
-                >
-                  <ArrowLeftIcon className="h-5 w-5" />
-                  <span className="sr-only">Go back</span>
-                </Button>
-              </a>
+            <a href="/">
+              <Button className="rounded-full" size="icon" variant="ghost">
+                <ArrowLeftIcon className="h-5 w-5" />
+                <span className="sr-only">Go back</span>
+              </Button>
+            </a>
             <h1 className="text-lg font-medium ml-4">ROLOSTIL</h1>
           </div>
           <div className="flex items-center gap-2" />
@@ -41,7 +38,8 @@ export function Products(props: Props) {
       </div>
       <div
         key="1"
-        className="flex lg:flex-row flex-col lg:pt-5   items-start max-w-6xl px-4 mx-auto py-6">
+        className="flex lg:flex-row flex-col lg:pt-5   items-start max-w-6xl px-4 mx-auto py-6"
+      >
         <div className="lg:p-10 p-4 items-start">
           <div className="flex flex-col gap-2">
             <h1 className="font-bold text-3xl lg:text-4xl">
@@ -54,26 +52,32 @@ export function Products(props: Props) {
         </div>
       </div>
       <div className="grid md:grid-cols-2 mx-auto w-fit lg:grid-cols-3 gap-8 pbs-10">
-            {props.imgPaths.map((imgPath, i) => (
-              <img
-              key={i}
+        {props.imgPaths.map((imgPath, i) => (
+          <img
+            key={i}
             alt="Card Image"
             className="h-full w-full object-cover rounded-lg"
             src={imgPath}
           />
-            ))}
-          </div>
-          
-          <footer className="w-full py-6">
+        ))}
+      </div>
+
+      <footer className="w-full py-6">
         <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
           <p className="text-gray-500 dark:text-gray-400">
             © 2024 Your Company. All rights reserved.
           </p>
           <div className="flex items-center space-x-4">
-            <Link aria-label="Instagram" href="https://www.instagram.com/rolo_stil_maglaj/">
+            <Link
+              aria-label="Instagram"
+              href="https://www.instagram.com/rolo_stil_maglaj/"
+            >
               <InstagramIcon className="w-6 h-6 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300" />
             </Link>
-            <Link aria-label="Facebook" href="https://www.facebook.com/profile.php?id=100054437743352">
+            <Link
+              aria-label="Facebook"
+              href="https://www.facebook.com/profile.php?id=100054437743352"
+            >
               <FacebookIcon className="w-6 h-6 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300" />
             </Link>
           </div>
