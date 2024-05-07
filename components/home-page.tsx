@@ -11,24 +11,28 @@ const photoCards = [
     productTitle: "Komarnici",
     productDescription:
       " Najbolji komarnici na tržištu, beton druže moj. Za ove komarnike garantuje Obama lično, on tvrdi da od kako ih je uzeo da ga ni jedan komarac nije uhvatio.",
+    route: "/komarnici",
   },
   {
     imgPath: "/grid(4).webp",
     productTitle: "Prozori",
     productDescription:
       " Kao i komarnici prozori su vrh vrhova, znači špicoka. Ne znaš jel bolja zvučna ili tobplotna izolacija. Prozore stavit nego fasadu.",
+    route: "/prozori",
   },
   {
     imgPath: "/grid(5).webp",
     productTitle: "Roletne bajo",
     productDescription:
       "Roletne idu gore dole. Imaš sa motorićem ili ručno da motaš. Kad ih spustiš do kraja bude mrkli mrak misliš da će te nešto pojest.",
+    route: "/roletne",
   },
   {
     imgPath: "/grid(1).webp",
     productTitle: "Vrata",
     productDescription:
       "Roletne idu gore dole. Imaš sa motorićem ili ručno da motaš. Kad ih spustiš do kraja bude mrkli mrak misliš da će te nešto pojest.",
+    route: "/vrata",
   },
 ];
 
@@ -89,6 +93,7 @@ export function HomePage() {
                 imgPath={photoCard.imgPath}
                 productDescription={photoCard.productDescription}
                 productTitle={photoCard.productTitle}
+                route={photoCard.route}
               />
             ))}
           </div>
@@ -147,10 +152,10 @@ export function HomePage() {
             © 2024 Your Company. All rights reserved.
           </p>
           <div className="flex items-center space-x-4">
-            <Link aria-label="Instagram" href="#">
+            <Link aria-label="Instagram" href="https://www.instagram.com/rolo_stil_maglaj/">
               <InstagramIcon className="w-6 h-6 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300" />
             </Link>
-            <Link aria-label="Facebook" href="#">
+            <Link aria-label="Facebook" href="https://www.facebook.com/profile.php?id=100054437743352">
               <FacebookIcon className="w-6 h-6 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300" />
             </Link>
           </div>
