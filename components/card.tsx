@@ -29,7 +29,7 @@ export function PhotoCard(props: Props) {
         <Link
           className="inline-flex h-10 items-center justify-center rounded-md borde border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors texy100 hover:bg-gray-100 text-blue-900 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
           href={props.route}>
-          Ponuda
+          Više
         </Link>
       </div>
     </Card>
