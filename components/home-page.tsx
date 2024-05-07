@@ -49,7 +49,7 @@ export function HomePage() {
                     ROLOSTIL
                   </h1>
                   <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                    Streamline your team's workflow with our intuitive
+                    Streamline your teams workflow with our intuitive
                     collaboration tools. Boost productivity, enhance
                     communication, and drive innovation.
                   </p>
