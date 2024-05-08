@@ -56,7 +56,7 @@ export function Products(props: Props) {
           <img
             key={i}
             alt="Card Image"
-            className="h-full w-full object-cover rounded-lg"
+            className="h-full w-full object-cover shadow-lg rounded-lg"
             src={imgPath}
           />
         ))}
@@ -64,7 +64,7 @@ export function Products(props: Props) {
 
       <footer className="w-full py-6">
         <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
-          <p className="text-gray-500 dark:text-gray-400">
+          <p className="text-gray-500 ">
             © 2024 Your Company. All rights reserved.
           </p>
           <div className="flex items-center space-x-4">
@@ -72,13 +72,13 @@ export function Products(props: Props) {
               aria-label="Instagram"
               href="https://www.instagram.com/rolo_stil_maglaj/"
             >
-              <InstagramIcon className="w-6 h-6 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300" />
+              <InstagramIcon className="w-6 h-6 text-gray-500 hover:text-gray-700 " />
             </Link>
             <Link
               aria-label="Facebook"
               href="https://www.facebook.com/profile.php?id=100054437743352"
             >
-              <FacebookIcon className="w-6 h-6 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300" />
+              <FacebookIcon className="w-6 h-6 text-gray-500 hover:text-gray-700 " />
             </Link>
           </div>
         </div>
