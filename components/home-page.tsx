@@ -36,7 +36,7 @@ const photoCards = [
     route: "/vrata",
   },
   {
-    imgPath: "/grid(1).webp",
+    imgPath: "/garaza/garaza(3).webp",
     productTitle: "Garazna vrata",
     productDescription:
       "Naša sekciona garažna vrata na daljinski upravljač kombinuju praktičnost i sigurnost, omogućavajući jednostavno otvaranje i zatvaranje daljinskim upravljačem.",
