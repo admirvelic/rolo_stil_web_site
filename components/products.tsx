@@ -51,7 +51,7 @@ export function Products(props: Props) {
           </div>
         </div>
       </div>
-      <div className="grid md:grid-cols-2 mx-auto w-fit lg:grid-cols-3 gap-8 pbs-10">
+      <div className="grid md:grid-cols-2 mx-auto max-w-7xl lg:grid-cols-3 gap-8 pbs-10">
         {props.imgPaths.map((imgPath, i) => (
           <img
             key={i}

@@ -39,7 +39,7 @@ const photoCards = [
     imgPath: "/grid(1).webp",
     productTitle: "Garazna vrata",
     productDescription:
-      "Naša sekciona garažna vrata na daljinski upravljač kombinuju praktičnost i sigurnost, omogućavajući jednostavno otvaranje i zatvaranje uz dodatnu udobnost daljinskog upravljanja.",
+      "Naša sekciona garažna vrata na daljinski upravljač kombinuju praktičnost i sigurnost, omogućavajući jednostavno otvaranje i zatvaranje daljinskim upravljačem.",
     route: "/garaza",
   },
 ];
@@ -68,13 +68,13 @@ export function HomePage() {
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link
-                    className="inline-flex w-1/2 h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 "
+                    className="inline-flex md:w-auto h-10 items-center justify-center rounded-md w-full bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 "
                     href="#pozovite-nas"
                   >
                     Pozovite nas
                   </Link>
                   <Link
-                    className="inline-flex w-1/2 h-10 items-center justify-center rounded-md border border-gray-500 bg-white px-8 text-sm font-medium shadow-sm transition-colors texy100 hover:bg-gray-100 text-gray-500 hover:text-gray-900 hover:border-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 "
+                    className="inline-flex md:w-auto w-full h-10 items-center justify-center rounded-md border border-gray-500 bg-white px-8 text-sm font-medium shadow-sm transition-colors texy100 hover:bg-gray-100 text-gray-500 hover:text-gray-900 hover:border-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 "
                     href="#ponuda"
                   >
                     Ponuda
