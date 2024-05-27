@@ -17,7 +17,7 @@ const productInfo = {
   ],
   productTitle: "Vrata",
   productDescription:
-    "Naša raznolika ponuda PVC ulaznih vrata pruža širok izbor opcija koje će zadovoljiti različite ukuse i potrebe. Sviđa li vam se klasični stil ili preferirate modernu eleganciju, kod nas ćete pronaći vrata koja odgovaraju vašem ukusu. Osim toga, nudimo izbor različitih vrsta panela kako biste mogli personalizirati svoja vrata prema vašoj želji. Bez obzira jeste li zainteresirani za bijela, antracit, mahagoni ili zlatni hrast, naša PVC ulazna vrata kombinuju estetiku, funkcionalnost i sigurnost kako bi vaš dom bio potpuno zaštićen i stilski usklađen.",
+    "Naša raznolika ponuda PVC ulaznih vrata omogućava širok izbor opcija koje će zadovoljiti različite ukuse i potrebe. Sviđa li vam se klasični stil ili preferirate modernu eleganciju, kod nas ćete pronaći vrata koja odgovaraju vašem ukusu. Osim toga, nudimo izbor različitih vrsta panela kako biste mogli personalizirati svoja vrata prema vašoj želji. Bez obzira jeste li zainteresirani za bijela, antracit, mahagoni ili zlatni hrast, naša PVC ulazna vrata kombinuju estetiku, funkcionalnost i sigurnost kako bi vaš dom bio potpuno zaštićen i stilski usklađen.",
 };
 
 export default function Home() {

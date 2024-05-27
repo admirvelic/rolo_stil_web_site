@@ -11,7 +11,7 @@ const photoCards = [
     imgPath: "/grid(3).webp",
     productTitle: "Komarnici",
     productDescription:
-      "Naši komarnici su dizajnirani s fokusom na trajnost i funkcionalnost. Nudeći različite stilove, uključujući klizne, rolo i fiksne modele, prilagođavamo se vašim potrebama.",
+      "Naši komarnici su dizajnirani s fokusom na trajnost i funkcionalnost. Nudimo različite stilove, uključujući klizne, rolo i fiksne modele, prilagođavamo se vašim potrebama.",
     route: "/komarnici",
   },
   {
@@ -125,7 +125,7 @@ export function HomePage() {
                         Adresa
                       </h3>
                       <p className="text-blue-900">
-                        Misurići BB, Remzina rezidencija
+                        Misurići BB
                         <br />
                         Maglaj 74250
                       </p>
