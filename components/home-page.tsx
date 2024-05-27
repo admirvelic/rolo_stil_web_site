@@ -69,9 +69,9 @@ export function HomePage() {
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link
                     className="inline-flex md:w-auto h-10 items-center justify-center rounded-md w-full bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 "
-                    href="#pozovite-nas"
+                    href="#kontakt"
                   >
-                    Pozovite nas
+                    Kontakt
                   </Link>
                   <Link
                     className="inline-flex md:w-auto w-full h-10 items-center justify-center rounded-md border border-gray-500 bg-white px-8 text-sm font-medium shadow-sm transition-colors texy100 hover:bg-gray-100 text-gray-500 hover:text-gray-900 hover:border-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 "
@@ -112,10 +112,10 @@ export function HomePage() {
 
           <div className=" py-12 md:py-16 lg:py-20">
             <div className="mx-auto px-4 md:px-6 lg:px-8">
-              <div id="pozovite-nas" className="mx-auto">
+              <div id="kontakt" className="mx-auto">
                 <div className="mb-8 md:mb-10 lg:mb-12">
                   <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-                    Pozovite nas
+                    Kontakt
                   </h2>
                 </div>
                 <div className="bg-white rounded-lg shadow-xl p-6 md:p-8 lg:p-10 space-y-6">
@@ -161,7 +161,7 @@ export function HomePage() {
       <footer className="w-full py-6">
         <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
           <p className="text-gray-500">
-            © 2024 Your Company. All rights reserved.
+            © 2024 Rolo stil. All rights reserved.
           </p>
           <div className="flex items-center space-x-4">
             <Link
