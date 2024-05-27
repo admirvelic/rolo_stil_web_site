@@ -54,7 +54,7 @@ export function HomePage() {
               <div className=" lg:w-2/5 w-full flex flex-col lg:pl-16 lg:pr-4 justify-center space-y-4 lg:pt-10 p-10">
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl/none">
-                    ROLOSTIL
+                    ROLO STIL
                   </h1>
                   <p className="max-w-[600px] text-gray-500 md:text-l">
                     Sa više od 10 godina iskustva u proizvodnji i montaži PVC
@@ -142,15 +142,15 @@ export function HomePage() {
                         Ajdin Basor: <a href="tel:+38762592694">+38762592694</a>
                       </p>
                     </div>
-                    <div>
+                    {/* <div>
                       <h3 className="text-lg font-medium text-gray-900 mb-2">
                         Email
                       </h3>
                       <p className="text-blue-900">
                         {" "}
-                        <a href="mailto:info@rolostil.com">info@rolostil.com</a>
+                        <a href="mailto:info@rolo-stil.com">info@rolo-stil.com</a>
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
